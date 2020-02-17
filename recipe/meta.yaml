@@ -1,5 +1,5 @@
 {% set name = "sagemaker-tensorflow-serving-container" %}
-{% set version = "1.6.15" %}
+{% set version = "1.6.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/aws/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 4058714fca343943a8516a2e2dc7b2e669a48412f3066e4c32cace6e2b843bc3
+  sha256: 6966776de8ba7e49cd4af0b5c269adb3bce7d9a5b961e735f75c08d7bc5f499b
 
 build:
   number: 0
