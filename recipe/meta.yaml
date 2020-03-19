@@ -10,7 +10,7 @@ source:
   sha256: 9cee9d9d5c7e6ae9890593ce15082cc8f9709c33c081181717f6ff623301a596
 
 build:
-  number: 0
+  number: 1
   script:
     - cp -r $SRC_DIR $SP_DIR/sagemaker_tensorflow_serving_container
   skip: True  # [win or py2k]
