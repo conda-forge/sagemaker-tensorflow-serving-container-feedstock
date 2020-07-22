@@ -5,7 +5,7 @@ Home: https://github.com/aws/sagemaker-tensorflow-serving-container
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: SageMaker TensorFlow Serving Container is an a open source project that builds docker images for running TensorFlow Serving on Amazon SageMaker.
 
