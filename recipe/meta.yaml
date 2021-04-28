@@ -1,5 +1,5 @@
 {% set name = "sagemaker-tensorflow-serving-container" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/aws/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 4f083b2ef2c98d4d06b62de0de4b56746bd136d8e53b33b9dedd120bc253f332
+  sha256: 4bb752ddebfbda917939fe51f7e58000ad798d88d586fd6079101a411cac1653
 
 build:
-  number: 2
+  number: 0
   script:
     - cp -r $SRC_DIR $SP_DIR/sagemaker_tensorflow_serving_container
   skip: true  # [win or py2k]
