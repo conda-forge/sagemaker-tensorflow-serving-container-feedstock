@@ -10,7 +10,7 @@ source:
   sha256: 4bb752ddebfbda917939fe51f7e58000ad798d88d586fd6079101a411cac1653
 
 build:
-  number: 0
+  number: 1
   script:
     - cp -r $SRC_DIR $SP_DIR/sagemaker_tensorflow_serving_container
   skip: true  # [win or py2k]
@@ -36,6 +36,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - benhuff
     - oblute
     - rluria14
